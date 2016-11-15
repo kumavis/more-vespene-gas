@@ -1,11 +1,10 @@
 {
   "name": "more-vespene-gas",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "you require more vespene gas!",
   "scripts": {
-    "preinstall": "echo 'you require more vespene gas!' && say 'ey'",
-    "prestart": "echo 'you require more vespene gas!' && say 'ey'",
+    "preinstall": "PHRASE='you require more vespene gas!'; echo $PHRASE && say $PHRASE",
+    "prestart": "PHRASE='you require more vespene gas!'; echo $PHRASE && say $PHRASE",
     "start": "echo 'start'"
   },
   "author": "",
