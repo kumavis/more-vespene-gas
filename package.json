@@ -1,0 +1,13 @@
+{
+  "name": "more-vespene-gas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "echo 'you require more vespene gas!' && say 'ey'",
+    "prestart": "echo 'you require more vespene gas!' && say 'ey'",
+    "start": "echo 'start'"
+  },
+  "author": "",
+  "license": "ISC"
+}
