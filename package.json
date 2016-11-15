@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "you require more vespene gas!",
   "scripts": {
-    "preinstall": "PHRASE='you require more vespene gas!'; echo $PHRASE && say $PHRASE",
-    "prestart": "PHRASE='you require more vespene gas!'; echo $PHRASE && say $PHRASE",
-    "start": "echo 'start'"
+    "preinstall": "PHRASE='you require more vespene gas!'; echo $PHRASE && say $PHRASE &",
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumavis/more-vespene-gas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kumavis/more-vespene-gas/issues"
+  },
+  "homepage": "https://github.com/kumavis/more-vespene-gas#readme"
 }
