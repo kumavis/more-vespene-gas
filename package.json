@@ -1,6 +1,6 @@
 {
   "name": "more-vespene-gas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "you require more vespene gas!",
   "scripts": {
     "preinstall": "PHRASE='you require more vespene gas!'; echo $PHRASE && say $PHRASE &",
